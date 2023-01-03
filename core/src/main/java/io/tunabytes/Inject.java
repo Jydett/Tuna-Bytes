@@ -49,7 +49,7 @@ public @interface Inject {
 
     /**
      * Used with {@link At#REPLACE_LINE} to specify a range of lines to be replaced
-     *  where the inclusive range is defined by [lineNumber,lineNumberEnd]. 
+     *  where the inclusive range is defined by [lineNumber,lineNumberEnd].
      * <p>
      * Note: The line number must match the number in the source code. Since
      * line numbers are preserved into the bytecode as instructions when the class is
@@ -96,7 +96,7 @@ public @interface Inject {
          * Replace the given line
          *
          * @deprecated EXPERIMENTAL make sure to test your bytecode !
-         * @see Inject#lineNumber() 
+         * @see Inject#lineNumber()
          */
         @Deprecated
         REPLACE_LINE,
